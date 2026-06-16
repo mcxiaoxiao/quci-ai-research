@@ -95,9 +95,10 @@ async function main() {
   for (const file of chapterOrder) {
     const md = await readFile(path.join(chaptersDir, file), 'utf8');
     const titleLine = md.split('\n').find((line) => line.startsWith('# ')) || file;
-    chapterTitles.push(titleLine.replace(/^#\s*/, '').trim());
+    chapterTitles.push(titleLine.replace(/^#\s*/, '').trim().replace(/^\d+\.\s*/, ''));
     chapterBlocks.push(md.trim());
   }
+  const appendixTitle = '附录 证据索引';
 
   const assembledMd = [
     '# 中国传统曲艺生成 AI 市场与技术可行性研究',
@@ -116,12 +117,22 @@ async function main() {
 
   await writeFile(finalMdPath, assembledMd, 'utf8');
 
-  const logoPath = path.join(assetsDir, 'logo.jpg');
-  const logoBase64 = await readFile(logoPath, { encoding: 'base64' });
-  const logoDataUri = `data:image/jpeg;base64,${logoBase64}`;
+  const wordmarkPath = path.join(assetsDir, 'wordmark.png');
+  const wordmarkBase64 = await readFile(wordmarkPath, { encoding: 'base64' });
+  const wordmarkDataUri = `data:image/png;base64,${wordmarkBase64}`;
+  const wordmarkCropSvg = Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1745" height="550" viewBox="140 110 1745 550">
+  <image href="${wordmarkDataUri}" x="0" y="0" width="2027" height="776" preserveAspectRatio="none" />
+</svg>`).toString('base64');
+  const coverWordmarkDataUri = `data:image/svg+xml;base64,${wordmarkCropSvg}`;
 
-  const tocHtml = chapterTitles
-    .map((title, idx) => `<li><a href="#chapter-${idx + 1}">${toHtmlTitle(title)}</a></li>`)
+  const tocItems = [
+    ...chapterTitles.map((title, idx) => ({ href: `#chapter-${idx + 1}`, title })),
+    { href: '#appendix', title: appendixTitle },
+  ];
+
+  const tocHtml = tocItems
+    .map((item) => `<li><a href="${item.href}">${toHtmlTitle(item.title)}</a></li>`)
     .join('');
 
   const sectionHtml = [];
@@ -142,24 +153,13 @@ async function main() {
 <body>
   <div class="cover">
     <div class="cover-inner">
-      <div class="brand-row">
-        <img src="${logoDataUri}" alt="logo" />
-        <div>
-          <div class="eyebrow">Market + Tech Feasibility Research</div>
-          <h1 class="title">中国传统曲艺生成 AI 市场与技术可行性研究</h1>
-          <div class="subtitle">从“能不能写”转向“能不能交付、能不能合规、能不能卖”</div>
-        </div>
-      </div>
-      <div class="meta">
-        <div><strong>版本</strong><br />Draft v1</div>
-        <div><strong>生成时间</strong><br />${toHtmlTitle(new Date(summary.generated_at).toLocaleString('zh-CN'))}</div>
-        <div><strong>证据规模</strong><br />${summary.source_count} 条来源</div>
-      </div>
+      <img class="cover-mark" src="${coverWordmarkDataUri}" alt="尺素 chisu" />
+      <h1 class="title">中国传统曲艺生成 AI 市场与技术可行性研究</h1>
+      <div class="cover-time">${toHtmlTitle(new Date(summary.generated_at).toLocaleString('zh-CN'))}</div>
       <div class="toc">
-        <strong>目录</strong>
+        <div class="toc-title">目录</div>
         <ol>${tocHtml}</ol>
       </div>
-      <p class="small-note">本报告采用多 Markdown 分章节维护，最终统一渲染为 PDF。正文以怀疑式分析为主，附录列出完整证据索引。</p>
     </div>
   </div>
   <div class="content">
