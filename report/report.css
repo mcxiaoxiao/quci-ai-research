@@ -20,12 +20,11 @@ html, body {
 }
 
 .cover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 236mm;
-  padding: 18mm 18mm 14mm;
+  display: block;
+  padding: 18mm 18mm 10mm;
   background: #ffffff;
+  break-after: page;
+  page-break-after: always;
 }
 
 .cover-inner {
@@ -37,19 +36,19 @@ html, body {
 
 .cover-mark {
   display: block;
-  width: min(100%, 540px);
+  width: min(100%, 500px);
   height: auto;
-  margin: 0 auto 16px;
+  margin: 0 auto 14px;
   object-fit: contain;
 }
 
 .title {
   font-family: "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", Georgia, serif;
-  font-size: 24pt;
+  font-size: 22pt;
   line-height: 1.15;
   margin: 0 auto 10px;
   color: #111111;
-  max-width: 17em;
+  max-width: 19em;
 }
 
 .cover-time {
@@ -59,9 +58,16 @@ html, body {
   letter-spacing: 0.04em;
 }
 
+.subtitle {
+  font-size: 10.5pt;
+  color: #555555;
+  margin-bottom: 14px;
+}
+
 .content {
   padding: 0 0 28px;
-  page-break-before: always;
+  break-before: auto;
+  page-break-before: auto;
 }
 
 .section {

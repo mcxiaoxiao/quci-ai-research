@@ -1,6 +1,6 @@
 # 附录 A. 证据索引
 
-本附录共收录 **104** 条证据，其中官方 / 产品 / 政策来源 24 条，学术来源 80 条。
+本附录共收录 **119** 条证据，其中官方 / 产品 / 政策来源 39 条，学术来源 80 条。
 
 下面的表格按来源代码排序，便于正文回查。
 
@@ -26,10 +26,25 @@
 | O18 | product | music generation | Suno 官方页面 | 2024 | 面向大众的生成式音乐产品，证明用户愿意为“可听”买单。 | [link](https://suno.com/) |
 | O19 | product | music generation | Udio 官方页面 | 2024 | 另一条主流消费级音乐生成路线，适合与传统曲艺生成做能力对比。 | [link](https://www.udio.com/) |
 | O20 | product | music generation | AIVA 官方页面 | 2024 | AI 作曲与授权商业模式的代表产品。 | [link](https://www.aiva.ai/) |
-| O21 | product | music generation | Soundraw 官方页面 | 2024 | 可定制音乐生成产品，对“可控生成”很有参考意义。 | [link](https://soundraw.io/) |
-| O22 | product | music generation | Beatoven 官方页面 | 2024 | AI 配乐产品，体现 B2B 内容生成的商业路径。 | [link](https://www.beatoven.ai/) |
-| O23 | product | music generation | Mubert 官方页面 | 2024 | 生成式音频和版权授权结合的商业样本。 | [link](https://mubert.com/) |
-| O24 | product | music generation | Boomy 官方页面 | 2024 | 大众化音乐生成工具，对产品门槛和付费意愿有参考价值。 | [link](https://boomy.com/) |
+| O21 | news / media | aiva | 第一个世界上正式的AI作曲家AIVA到底是怎样创作音乐的？ | 2017 | 中文媒体对 AIVA 的早期介绍，说明中文语境很早就把它视为作曲型生成工具。 | [link](https://www.163.com/dy/article/CFOD8PR30511C9QL.html) |
+| O22 | product | music generation | Soundraw 官方页面 | 2024 | 可定制音乐生成产品，对“可控生成”很有参考意义。 | [link](https://soundraw.io/) |
+| O23 | product | music generation | SOUNDRAW 商业使用页 | 2024 | 突出商业许可、可用场景和企业采购路径。 | [link](https://soundraw.io/business) |
+| O24 | product | music generation | SOUNDRAW API | 2024 | API 计划与接入能力，支持平台级嵌入。 | [link](https://soundraw.io/api) |
+| O25 | product | music generation | SOUNDRAW License | 2024 | 说明版权许可、商业使用和训练数据口径。 | [link](https://soundraw.io/license) |
+| O26 | product | music generation | SOUNDRAW Enterprise | 2024 | 企业版入口，说明面向 B 端的工作流销售。 | [link](https://discover.soundraw.io/enterprise) |
+| O27 | product | music generation | SOUNDRAW API Inquiry | 2024 | 白标和 API 接入询价页，反映平台化路径。 | [link](https://discover.soundraw.io/api/inquiry) |
+| O28 | product | music generation | SOUNDRAW 商业解决方案博客 | 2025 | 对 API、Enterprise 和 Academic 三类方案的官方解释。 | [link](https://soundraw.io/blog/post/soundraws-ai-music-business-solutions-exploring-the-api-enterprise-and-academic-plans) |
+| O29 | product | music generation | Beatoven 官方页面 | 2024 | AI 配乐产品，体现 B2B 内容生成的商业路径。 | [link](https://www.beatoven.ai/) |
+| O30 | product | music generation | Mubert 官方页面 | 2024 | 生成式音频和版权授权结合的商业样本。 | [link](https://mubert.com/) |
+| O31 | product | music generation | Boomy 官方页面 | 2024 | 大众化音乐生成工具，对产品门槛和付费意愿有参考价值。 | [link](https://boomy.com/) |
+| O32 | product | music generation | Suno Pricing | 2025 | Suno 的订阅层级与商业使用边界。 | [link](https://suno.com/pricing) |
+| O33 | product | music generation | Udio Pricing | 2025 | Udio 的订阅层级与付费路径。 | [link](https://www.udio.com/pricing) |
+| O34 | product | music generation | Universal Music Group and Udio announce Udio’s first strategic agreements for new licensed AI music creation platform | 2025 | Udio 转向授权化平台的重要商业信号。 | [link](https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/) |
+| O35 | product | music generation | OPERA America: An AI revolution is coming in opera too? | 2024 | 歌剧行业对 AI 的讨论偏项目制和实验性，而非标准 SaaS。 | [link](https://www.operaamerica.org/magazine/spring-2024/an-ai-revolution-is-coming-in-opera-too/) |
+| O36 | product | music generation | Amadeus Code Pricing | 2025 | Amadeus Code 的定价与商业化入口。 | [link](https://amadeuscode.com/en/pricing) |
+| O37 | product | music generation | Amadeus Code News | 2025 | 连续新闻更新，说明产品并非静态页面。 | [link](https://amadeuscode.com/en/news) |
+| O38 | product | music generation | Amadeus Code Evoke Music | 2025 | 面向内容场景的 AI 音乐生成 / 分发产品。 | [link](https://amadeuscode.com/en/evoke-music) |
+| O39 | product | music generation | Amadeus Code FUJIYAMA AI SOUND | 2025 | 更偏底层的 AI 音频生成和样本源。 | [link](https://amadeuscode.com/en/fujiyama-ai-sound) |
 | A001 | academic | songci generation | PoeTone: A Framework for Constrained Generation of Structured Chinese Songci with LLMs | 2026 | Query match: songci generation | [link](https://doi.org/10.1609/aaai.v40i39.40555) |
 | A002 | academic | grammar constrained decoding | Flexible and Efficient Grammar-Constrained Decoding | 2025 | Query match: grammar constrained decoding | [link](https://doi.org/10.48550/arxiv.2502.05111) |
 | A003 | academic | grammar constrained decoding | Grammar-Constrained Decoding Makes Large Language Models Better Logical Parsers | 2025 | Query match: grammar constrained decoding | [link](https://doi.org/10.18653/v1/2025.acl-industry.34) |

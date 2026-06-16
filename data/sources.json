@@ -202,6 +202,16 @@
   {
     "id": "O21",
     "source_type": "official",
+    "category": "news / media",
+    "topic": "aiva",
+    "title": "第一个世界上正式的AI作曲家AIVA到底是怎样创作音乐的？",
+    "year": 2017,
+    "url": "https://www.163.com/dy/article/CFOD8PR30511C9QL.html",
+    "note": "中文媒体对 AIVA 的早期介绍，说明中文语境很早就把它视为作曲型生成工具。"
+  },
+  {
+    "id": "O22",
+    "source_type": "official",
     "category": "product",
     "topic": "music generation",
     "title": "Soundraw 官方页面",
@@ -210,7 +220,67 @@
     "note": "可定制音乐生成产品，对“可控生成”很有参考意义。"
   },
   {
-    "id": "O22",
+    "id": "O23",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "SOUNDRAW 商业使用页",
+    "year": 2024,
+    "url": "https://soundraw.io/business",
+    "note": "突出商业许可、可用场景和企业采购路径。"
+  },
+  {
+    "id": "O24",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "SOUNDRAW API",
+    "year": 2024,
+    "url": "https://soundraw.io/api",
+    "note": "API 计划与接入能力，支持平台级嵌入。"
+  },
+  {
+    "id": "O25",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "SOUNDRAW License",
+    "year": 2024,
+    "url": "https://soundraw.io/license",
+    "note": "说明版权许可、商业使用和训练数据口径。"
+  },
+  {
+    "id": "O26",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "SOUNDRAW Enterprise",
+    "year": 2024,
+    "url": "https://discover.soundraw.io/enterprise",
+    "note": "企业版入口，说明面向 B 端的工作流销售。"
+  },
+  {
+    "id": "O27",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "SOUNDRAW API Inquiry",
+    "year": 2024,
+    "url": "https://discover.soundraw.io/api/inquiry",
+    "note": "白标和 API 接入询价页，反映平台化路径。"
+  },
+  {
+    "id": "O28",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "SOUNDRAW 商业解决方案博客",
+    "year": 2025,
+    "url": "https://soundraw.io/blog/post/soundraws-ai-music-business-solutions-exploring-the-api-enterprise-and-academic-plans",
+    "note": "对 API、Enterprise 和 Academic 三类方案的官方解释。"
+  },
+  {
+    "id": "O29",
     "source_type": "official",
     "category": "product",
     "topic": "music generation",
@@ -220,7 +290,7 @@
     "note": "AI 配乐产品，体现 B2B 内容生成的商业路径。"
   },
   {
-    "id": "O23",
+    "id": "O30",
     "source_type": "official",
     "category": "product",
     "topic": "music generation",
@@ -230,7 +300,7 @@
     "note": "生成式音频和版权授权结合的商业样本。"
   },
   {
-    "id": "O24",
+    "id": "O31",
     "source_type": "official",
     "category": "product",
     "topic": "music generation",
@@ -238,6 +308,86 @@
     "year": 2024,
     "url": "https://boomy.com/",
     "note": "大众化音乐生成工具，对产品门槛和付费意愿有参考价值。"
+  },
+  {
+    "id": "O32",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Suno Pricing",
+    "year": 2025,
+    "url": "https://suno.com/pricing",
+    "note": "Suno 的订阅层级与商业使用边界。"
+  },
+  {
+    "id": "O33",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Udio Pricing",
+    "year": 2025,
+    "url": "https://www.udio.com/pricing",
+    "note": "Udio 的订阅层级与付费路径。"
+  },
+  {
+    "id": "O34",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Universal Music Group and Udio announce Udio’s first strategic agreements for new licensed AI music creation platform",
+    "year": 2025,
+    "url": "https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/",
+    "note": "Udio 转向授权化平台的重要商业信号。"
+  },
+  {
+    "id": "O35",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "OPERA America: An AI revolution is coming in opera too?",
+    "year": 2024,
+    "url": "https://www.operaamerica.org/magazine/spring-2024/an-ai-revolution-is-coming-in-opera-too/",
+    "note": "歌剧行业对 AI 的讨论偏项目制和实验性，而非标准 SaaS。"
+  },
+  {
+    "id": "O36",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Amadeus Code Pricing",
+    "year": 2025,
+    "url": "https://amadeuscode.com/en/pricing",
+    "note": "Amadeus Code 的定价与商业化入口。"
+  },
+  {
+    "id": "O37",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Amadeus Code News",
+    "year": 2025,
+    "url": "https://amadeuscode.com/en/news",
+    "note": "连续新闻更新，说明产品并非静态页面。"
+  },
+  {
+    "id": "O38",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Amadeus Code Evoke Music",
+    "year": 2025,
+    "url": "https://amadeuscode.com/en/evoke-music",
+    "note": "面向内容场景的 AI 音乐生成 / 分发产品。"
+  },
+  {
+    "id": "O39",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Amadeus Code FUJIYAMA AI SOUND",
+    "year": 2025,
+    "url": "https://amadeuscode.com/en/fujiyama-ai-sound",
+    "note": "更偏底层的 AI 音频生成和样本源。"
   },
   {
     "id": "A001",

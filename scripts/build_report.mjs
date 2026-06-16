@@ -18,6 +18,8 @@ const assetsDir = path.join(root, 'assets');
 const finalMdPath = path.join(reportDir, 'final-report.md');
 const finalHtmlPath = path.join(buildDir, 'final-report.html');
 const finalPdfPath = path.join(buildDir, 'final-report.pdf');
+const reportTitle = '东方传统艺术相关企业产品调研：歌剧、曲艺与生成式 AI 市场与技术可行性研究';
+const reportSubtitle = '从“能不能写”转向“能不能交付、能不能合规、能不能卖”';
 
 const chapterOrder = [
   '00-visual-identity.md',
@@ -101,7 +103,7 @@ async function main() {
   const appendixTitle = '附录 证据索引';
 
   const assembledMd = [
-    '# 中国传统曲艺生成 AI 市场与技术可行性研究',
+    `# ${reportTitle}`,
     '',
     `*生成时间：${new Date(summary.generated_at).toLocaleString('zh-CN')}*`,
     '',
@@ -154,8 +156,9 @@ async function main() {
   <div class="cover">
     <div class="cover-inner">
       <img class="cover-mark" src="${coverWordmarkDataUri}" alt="尺素 chisu" />
-      <h1 class="title">中国传统曲艺生成 AI 市场与技术可行性研究</h1>
+      <h1 class="title">${reportTitle}</h1>
       <div class="cover-time">${toHtmlTitle(new Date(summary.generated_at).toLocaleString('zh-CN'))}</div>
+      <div class="subtitle">${reportSubtitle}</div>
       <div class="toc">
         <div class="toc-title">目录</div>
         <ol>${tocHtml}</ol>

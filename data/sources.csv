@@ -19,10 +19,25 @@ O17,official,product,music generation,Stable Audio 官方页面,2024,https://sta
 O18,official,product,music generation,Suno 官方页面,2024,https://suno.com/,,面向大众的生成式音乐产品，证明用户愿意为“可听”买单。
 O19,official,product,music generation,Udio 官方页面,2024,https://www.udio.com/,,另一条主流消费级音乐生成路线，适合与传统曲艺生成做能力对比。
 O20,official,product,music generation,AIVA 官方页面,2024,https://www.aiva.ai/,,AI 作曲与授权商业模式的代表产品。
-O21,official,product,music generation,Soundraw 官方页面,2024,https://soundraw.io/,,可定制音乐生成产品，对“可控生成”很有参考意义。
-O22,official,product,music generation,Beatoven 官方页面,2024,https://www.beatoven.ai/,,AI 配乐产品，体现 B2B 内容生成的商业路径。
-O23,official,product,music generation,Mubert 官方页面,2024,https://mubert.com/,,生成式音频和版权授权结合的商业样本。
-O24,official,product,music generation,Boomy 官方页面,2024,https://boomy.com/,,大众化音乐生成工具，对产品门槛和付费意愿有参考价值。
+O21,official,news / media,aiva,第一个世界上正式的AI作曲家AIVA到底是怎样创作音乐的？,2017,https://www.163.com/dy/article/CFOD8PR30511C9QL.html,,中文媒体对 AIVA 的早期介绍，说明中文语境很早就把它视为作曲型生成工具。
+O22,official,product,music generation,Soundraw 官方页面,2024,https://soundraw.io/,,可定制音乐生成产品，对“可控生成”很有参考意义。
+O23,official,product,music generation,SOUNDRAW 商业使用页,2024,https://soundraw.io/business,,突出商业许可、可用场景和企业采购路径。
+O24,official,product,music generation,SOUNDRAW API,2024,https://soundraw.io/api,,API 计划与接入能力，支持平台级嵌入。
+O25,official,product,music generation,SOUNDRAW License,2024,https://soundraw.io/license,,说明版权许可、商业使用和训练数据口径。
+O26,official,product,music generation,SOUNDRAW Enterprise,2024,https://discover.soundraw.io/enterprise,,企业版入口，说明面向 B 端的工作流销售。
+O27,official,product,music generation,SOUNDRAW API Inquiry,2024,https://discover.soundraw.io/api/inquiry,,白标和 API 接入询价页，反映平台化路径。
+O28,official,product,music generation,SOUNDRAW 商业解决方案博客,2025,https://soundraw.io/blog/post/soundraws-ai-music-business-solutions-exploring-the-api-enterprise-and-academic-plans,,对 API、Enterprise 和 Academic 三类方案的官方解释。
+O29,official,product,music generation,Beatoven 官方页面,2024,https://www.beatoven.ai/,,AI 配乐产品，体现 B2B 内容生成的商业路径。
+O30,official,product,music generation,Mubert 官方页面,2024,https://mubert.com/,,生成式音频和版权授权结合的商业样本。
+O31,official,product,music generation,Boomy 官方页面,2024,https://boomy.com/,,大众化音乐生成工具，对产品门槛和付费意愿有参考价值。
+O32,official,product,music generation,Suno Pricing,2025,https://suno.com/pricing,,Suno 的订阅层级与商业使用边界。
+O33,official,product,music generation,Udio Pricing,2025,https://www.udio.com/pricing,,Udio 的订阅层级与付费路径。
+O34,official,product,music generation,Universal Music Group and Udio announce Udio’s first strategic agreements for new licensed AI music creation platform,2025,https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/,,Udio 转向授权化平台的重要商业信号。
+O35,official,product,music generation,OPERA America: An AI revolution is coming in opera too?,2024,https://www.operaamerica.org/magazine/spring-2024/an-ai-revolution-is-coming-in-opera-too/,,歌剧行业对 AI 的讨论偏项目制和实验性，而非标准 SaaS。
+O36,official,product,music generation,Amadeus Code Pricing,2025,https://amadeuscode.com/en/pricing,,Amadeus Code 的定价与商业化入口。
+O37,official,product,music generation,Amadeus Code News,2025,https://amadeuscode.com/en/news,,连续新闻更新，说明产品并非静态页面。
+O38,official,product,music generation,Amadeus Code Evoke Music,2025,https://amadeuscode.com/en/evoke-music,,面向内容场景的 AI 音乐生成 / 分发产品。
+O39,official,product,music generation,Amadeus Code FUJIYAMA AI SOUND,2025,https://amadeuscode.com/en/fujiyama-ai-sound,,更偏底层的 AI 音频生成和样本源。
 A001,academic,academic,songci generation,PoeTone: A Framework for Constrained Generation of Structured Chinese Songci with LLMs,2026,https://doi.org/10.1609/aaai.v40i39.40555,Zhan Qu,Query match: songci generation
 A002,academic,academic,grammar constrained decoding,Flexible and Efficient Grammar-Constrained Decoding,2025,https://doi.org/10.48550/arxiv.2502.05111,Kanghee Park,Query match: grammar constrained decoding
 A003,academic,academic,grammar constrained decoding,Grammar-Constrained Decoding Makes Large Language Models Better Logical Parsers,2025,https://doi.org/10.18653/v1/2025.acl-industry.34,Federico Raspanti,Query match: grammar constrained decoding
