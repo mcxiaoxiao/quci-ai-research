@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "O01",
+    "source_type": "official",
+    "category": "policy",
+    "topic": "generative ai regulation",
+    "title": "生成式人工智能服务管理暂行办法",
+    "year": 2023,
+    "url": "https://www.cac.gov.cn/",
+    "note": "中国生成式 AI 监管基础框架，定义服务提供者责任、数据合规和内容治理边界。"
+  },
+  {
+    "id": "O02",
+    "source_type": "official",
+    "category": "policy",
+    "topic": "content labeling",
+    "title": "人工智能生成合成内容标识办法",
+    "year": 2025,
+    "url": "https://www.cac.gov.cn/",
+    "note": "生成内容标识与传播规范，直接影响产品上线和内容审核流程。"
+  },
+  {
+    "id": "O03",
+    "source_type": "official",
+    "category": "policy",
+    "topic": "filing stats",
+    "title": "生成式人工智能服务备案信息公告（截至 2024-12-31）",
+    "year": 2024,
+    "url": "https://www.cac.gov.cn/",
+    "note": "备案数量 302、算法备案 238 的官方阶段性口径。"
+  },
+  {
+    "id": "O04",
+    "source_type": "official",
+    "category": "policy",
+    "topic": "filing stats",
+    "title": "生成式人工智能服务备案信息公告（截至 2025-11-01）",
+    "year": 2025,
+    "url": "https://www.cac.gov.cn/",
+    "note": "备案数量 611、算法备案 306 的较新官方口径。"
+  },
+  {
+    "id": "O05",
+    "source_type": "official",
+    "category": "industry report",
+    "topic": "ai industry",
+    "title": "中国人工智能产业发展研究报告（2025）",
+    "year": 2025,
+    "url": "https://www.caict.ac.cn/",
+    "note": "产业规模、企业数量、模型能力与应用情况的官方研究口径。"
+  },
+  {
+    "id": "O06",
+    "source_type": "official",
+    "category": "industry report",
+    "topic": "gen ai industry",
+    "title": "生成式人工智能产业发展研究报告（2025）",
+    "year": 2025,
+    "url": "https://www.caict.ac.cn/",
+    "note": "国内生成式 AI 产业规模进入万亿级别的关键参考。"
+  },
+  {
+    "id": "O07",
+    "source_type": "official",
+    "category": "culture report",
+    "topic": "cultural statistics",
+    "title": "2024年文化和旅游发展统计公报",
+    "year": 2025,
+    "url": "https://www.mct.gov.cn/",
+    "note": "公共图书馆、博物馆、文化馆、表演团体等机构规模的官方统计。"
+  },
+  {
+    "id": "O08",
+    "source_type": "official",
+    "category": "culture report",
+    "topic": "digital innovation",
+    "title": "2024年度文化和旅游数字化创新典型案例",
+    "year": 2025,
+    "url": "https://www.mct.gov.cn/",
+    "note": "文化和旅游数字化落地案例，证明垂直 AI 在公共文化系统里有真实需求。"
+  },
+  {
+    "id": "O09",
+    "source_type": "official",
+    "category": "heritage",
+    "topic": "intangible heritage",
+    "title": "国家级非物质文化遗产代表性项目名录",
+    "year": 2025,
+    "url": "https://www.mct.gov.cn/",
+    "note": "非遗项目总量和结构，是传统曲艺场景的重要需求底座。"
+  },
+  {
+    "id": "O10",
+    "source_type": "official",
+    "category": "heritage",
+    "topic": "intangible heritage",
+    "title": "国家级非物质文化遗产代表性传承人名录",
+    "year": 2025,
+    "url": "https://www.mct.gov.cn/",
+    "note": "传承人规模决定专家在环的可用性和成本。"
+  },
+  {
+    "id": "O11",
+    "source_type": "official",
+    "category": "heritage platform",
+    "topic": "ancient books",
+    "title": "中华古籍智慧化服务平台",
+    "year": 2025,
+    "url": "https://guji.nlc.cn/",
+    "note": "提供古籍数字化检索、OCR、断句、知识化服务，是 RAG 的关键数据底座。"
+  },
+  {
+    "id": "O12",
+    "source_type": "official",
+    "category": "heritage platform",
+    "topic": "ancient books",
+    "title": "中华古籍资源库",
+    "year": 2025,
+    "url": "https://www.nlc.cn/",
+    "note": "古籍与数字资源入口，支撑历史文本与曲艺资料检索。"
+  },
+  {
+    "id": "O13",
+    "source_type": "official",
+    "category": "law",
+    "topic": "copyright",
+    "title": "生成式人工智能相关著作权司法实践与案例",
+    "year": 2024,
+    "url": "https://www.court.gov.cn/",
+    "note": "生成内容著作权、训练数据边界和侵权争议的司法参考。"
+  },
+  {
+    "id": "O14",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "MusicGen / AudioCraft 官方介绍",
+    "year": 2023,
+    "url": "https://ai.meta.com/blog/musicgen-audiocraft-generation-audio/",
+    "note": "Meta 官方音乐生成模型说明，体现文本到音乐的能力上限和数据依赖。"
+  },
+  {
+    "id": "O15",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "OpenAI Jukebox 官方研究页",
+    "year": 2020,
+    "url": "https://openai.com/research/jukebox",
+    "note": "早期音乐生成研究，证明“生成整首歌”可行但质量和版权问题一直存在。"
+  },
+  {
+    "id": "O16",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "MusicLM 官方介绍",
+    "year": 2023,
+    "url": "https://research.google/blog/musiclm-generating-music-from-text/",
+    "note": "Google 官方文本到音乐模型页面，属于行业能力对照组。"
+  },
+  {
+    "id": "O17",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Stable Audio 官方页面",
+    "year": 2024,
+    "url": "https://stability.ai/",
+    "note": "稳定音频生成产品的代表，说明商业化音乐生成已成立，但也受数据许可约束。"
+  },
+  {
+    "id": "O18",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Suno 官方页面",
+    "year": 2024,
+    "url": "https://suno.com/",
+    "note": "面向大众的生成式音乐产品，证明用户愿意为“可听”买单。"
+  },
+  {
+    "id": "O19",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Udio 官方页面",
+    "year": 2024,
+    "url": "https://www.udio.com/",
+    "note": "另一条主流消费级音乐生成路线，适合与传统曲艺生成做能力对比。"
+  },
+  {
+    "id": "O20",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "AIVA 官方页面",
+    "year": 2024,
+    "url": "https://www.aiva.ai/",
+    "note": "AI 作曲与授权商业模式的代表产品。"
+  },
+  {
+    "id": "O21",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Soundraw 官方页面",
+    "year": 2024,
+    "url": "https://soundraw.io/",
+    "note": "可定制音乐生成产品，对“可控生成”很有参考意义。"
+  },
+  {
+    "id": "O22",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Beatoven 官方页面",
+    "year": 2024,
+    "url": "https://www.beatoven.ai/",
+    "note": "AI 配乐产品，体现 B2B 内容生成的商业路径。"
+  },
+  {
+    "id": "O23",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Mubert 官方页面",
+    "year": 2024,
+    "url": "https://mubert.com/",
+    "note": "生成式音频和版权授权结合的商业样本。"
+  },
+  {
+    "id": "O24",
+    "source_type": "official",
+    "category": "product",
+    "topic": "music generation",
+    "title": "Boomy 官方页面",
+    "year": 2024,
+    "url": "https://boomy.com/",
+    "note": "大众化音乐生成工具，对产品门槛和付费意愿有参考价值。"
+  },
+  {
+    "id": "A001",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "songci generation",
+    "title": "PoeTone: A Framework for Constrained Generation of Structured Chinese Songci with LLMs",
+    "year": 2026,
+    "url": "https://doi.org/10.1609/aaai.v40i39.40555",
+    "author": "Zhan Qu",
+    "note": "Query match: songci generation",
+    "topics": [
+      "songci generation"
+    ]
+  },
+  {
+    "id": "A002",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "grammar constrained decoding",
+    "title": "Flexible and Efficient Grammar-Constrained Decoding",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2502.05111",
+    "author": "Kanghee Park",
+    "note": "Query match: grammar constrained decoding",
+    "topics": [
+      "grammar constrained decoding"
+    ]
+  },
+  {
+    "id": "A003",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "grammar constrained decoding",
+    "title": "Grammar-Constrained Decoding Makes Large Language Models Better Logical Parsers",
+    "year": 2025,
+    "url": "https://doi.org/10.18653/v1/2025.acl-industry.34",
+    "author": "Federico Raspanti",
+    "note": "Query match: grammar constrained decoding",
+    "topics": [
+      "grammar constrained decoding"
+    ]
+  },
+  {
+    "id": "A004",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "large language model hallucination",
+    "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3703155",
+    "author": "Lei Huang",
+    "note": "Query match: large language model hallucination",
+    "topics": [
+      "large language model hallucination"
+    ]
+  },
+  {
+    "id": "A005",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "poetry evaluation human AI collaboration",
+    "title": "AI-generated poetry is indistinguishable from human-written poetry and is rated more favorably",
+    "year": 2024,
+    "url": "https://doi.org/10.1038/s41598-024-76900-1",
+    "author": "Brian Porter",
+    "note": "Query match: poetry evaluation human AI collaboration",
+    "topics": [
+      "poetry evaluation human AI collaboration"
+    ]
+  },
+  {
+    "id": "A006",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "retrieval augmented generation",
+    "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+    "year": 2024,
+    "url": "https://doi.org/10.1609/aaai.v38i16.29728",
+    "author": "Jiawei Chen",
+    "note": "Query match: retrieval augmented generation",
+    "topics": [
+      "retrieval augmented generation"
+    ]
+  },
+  {
+    "id": "A007",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "retrieval augmented generation",
+    "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+    "year": 2024,
+    "url": "https://doi.org/10.18653/v1/2024.findings-acl.372",
+    "author": "Guangzhi Xiong",
+    "note": "Query match: retrieval augmented generation",
+    "topics": [
+      "retrieval augmented generation"
+    ]
+  },
+  {
+    "id": "A008",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "large language model hallucination",
+    "title": "Detecting hallucinations in large language models using semantic entropy",
+    "year": 2024,
+    "url": "https://doi.org/10.1038/s41586-024-07421-0",
+    "author": "Sebastian Farquhar",
+    "note": "Query match: large language model hallucination",
+    "topics": [
+      "large language model hallucination"
+    ]
+  },
+  {
+    "id": "A009",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "large language model instruction tuning",
+    "title": "GraphGPT: Graph Instruction Tuning for Large Language Models",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3626772.3657775",
+    "author": "Jiabin Tang",
+    "note": "Query match: large language model instruction tuning",
+    "topics": [
+      "large language model instruction tuning"
+    ]
+  },
+  {
+    "id": "A010",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese classical poetry",
+    "title": "Machine translation of Chinese classical poetry: a comparison among ChatGPT, Google Translate, and DeepL Translator",
+    "year": 2024,
+    "url": "https://doi.org/10.1057/s41599-024-03363-0",
+    "author": "Ruiyao Gao",
+    "note": "Query match: Chinese classical poetry",
+    "topics": [
+      "Chinese classical poetry"
+    ]
+  },
+  {
+    "id": "A011",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "text to music generation",
+    "title": "Music Understanding LLaMA: Advancing Text-to-Music Generation with Question Answering and Captioning",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/icassp48485.2024.10447027",
+    "author": "Shansong Liu",
+    "note": "Query match: text to music generation",
+    "topics": [
+      "text to music generation"
+    ]
+  },
+  {
+    "id": "A012",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "text to music generation",
+    "title": "MusicLDM: Enhancing Novelty in text-to-music Generation Using Beat-Synchronous mixup Strategies",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/icassp48485.2024.10447265",
+    "author": "Ke Chen",
+    "note": "Query match: text to music generation",
+    "topics": [
+      "text to music generation"
+    ]
+  },
+  {
+    "id": "A013",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "text to music generation",
+    "title": "Mustango: Toward Controllable Text-to-Music Generation",
+    "year": 2024,
+    "url": "https://doi.org/10.18653/v1/2024.naacl-long.459",
+    "author": "Jan Melechovský",
+    "note": "Query match: text to music generation",
+    "topics": [
+      "text to music generation"
+    ]
+  },
+  {
+    "id": "A014",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "retrieval augmented generation",
+    "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+    "year": 2024,
+    "url": "https://doi.org/10.18653/v1/2024.eacl-demo.16",
+    "author": "Shahul Es",
+    "note": "Query match: retrieval augmented generation",
+    "topics": [
+      "retrieval augmented generation"
+    ]
+  },
+  {
+    "id": "A015",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "QLoRA large language models",
+    "title": "Repeatability of Fine-Tuning Large Language Models Illustrated Using QLoRA",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/access.2024.3470850",
+    "author": "Saeed Alahmari",
+    "note": "Query match: QLoRA large language models",
+    "topics": [
+      "QLoRA large language models"
+    ]
+  },
+  {
+    "id": "A016",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "symbolic music generation / music generation survey",
+    "title": "A Survey on Deep Learning for Symbolic Music Generation: Representations, Algorithms, Evaluations, and Challenges",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3597493",
+    "author": "Shulei Ji",
+    "note": "Query match: symbolic music generation",
+    "topics": [
+      "symbolic music generation",
+      "music generation survey"
+    ]
+  },
+  {
+    "id": "A017",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "retrieval augmented generation / active retrieval augmented generation",
+    "title": "Active Retrieval Augmented Generation",
+    "year": 2023,
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.495",
+    "author": "Zhengbao Jiang",
+    "note": "Query match: retrieval augmented generation",
+    "topics": [
+      "retrieval augmented generation",
+      "active retrieval augmented generation"
+    ]
+  },
+  {
+    "id": "A018",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "active retrieval augmented generation",
+    "title": "Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy",
+    "year": 2023,
+    "url": "https://doi.org/10.18653/v1/2023.findings-emnlp.620",
+    "author": "Zhihong Shao",
+    "note": "Query match: active retrieval augmented generation",
+    "topics": [
+      "active retrieval augmented generation"
+    ]
+  },
+  {
+    "id": "A019",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "large language model hallucination",
+    "title": "Evaluating Object Hallucination in Large Vision-Language Models",
+    "year": 2023,
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.20",
+    "author": "Yifan Li",
+    "note": "Query match: large language model hallucination",
+    "topics": [
+      "large language model hallucination"
+    ]
+  },
+  {
+    "id": "A020",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "grammar constrained decoding",
+    "title": "Grammar-Constrained Decoding for Structured NLP Tasks without Finetuning",
+    "year": 2023,
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.674",
+    "author": "Saibo Geng",
+    "note": "Query match: grammar constrained decoding",
+    "topics": [
+      "grammar constrained decoding"
+    ]
+  },
+  {
+    "id": "A021",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "large language model hallucination",
+    "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+    "year": 2023,
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.397",
+    "author": "Junyi Li",
+    "note": "Query match: large language model hallucination",
+    "topics": [
+      "large language model hallucination"
+    ]
+  },
+  {
+    "id": "A022",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "large language model hallucination",
+    "title": "Large language models and the perils of their hallucinations",
+    "year": 2023,
+    "url": "https://doi.org/10.1186/s13054-023-04393-x",
+    "author": "Răzvan Azamfirei",
+    "note": "Query match: large language model hallucination",
+    "topics": [
+      "large language model hallucination"
+    ]
+  },
+  {
+    "id": "A023",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "QLoRA large language models",
+    "title": "Machine Translation with Large Language Models: Prompting, Few-shot Learning, and Fine-tuning with QLoRA",
+    "year": 2023,
+    "url": "https://doi.org/10.18653/v1/2023.wmt-1.43",
+    "author": "Xuan Zhang",
+    "note": "Query match: QLoRA large language models",
+    "topics": [
+      "QLoRA large language models"
+    ]
+  },
+  {
+    "id": "A024",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "text to music generation",
+    "title": "Moûsai: Text-to-Music Generation with Long-Context Latent Diffusion",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2301.11757",
+    "author": "Flavio Schneider",
+    "note": "Query match: text to music generation",
+    "topics": [
+      "text to music generation"
+    ]
+  },
+  {
+    "id": "A025",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "text to music generation",
+    "title": "Noise2Music: Text-conditioned Music Generation with Diffusion Models",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2302.03917",
+    "author": "Qingqing Huang",
+    "note": "Query match: text to music generation",
+    "topics": [
+      "text to music generation"
+    ]
+  },
+  {
+    "id": "A026",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "QLoRA large language models",
+    "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2305.14314",
+    "author": "Tim Dettmers",
+    "note": "Query match: QLoRA large language models",
+    "topics": [
+      "QLoRA large language models"
+    ]
+  },
+  {
+    "id": "A027",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "retrieval augmented generation / active retrieval augmented generation",
+    "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2312.10997",
+    "author": "Yunfan Gao",
+    "note": "Query match: retrieval augmented generation",
+    "topics": [
+      "retrieval augmented generation",
+      "active retrieval augmented generation"
+    ]
+  },
+  {
+    "id": "A028",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "poetry evaluation human AI collaboration",
+    "title": "Does human–AI collaboration lead to more creative art? Aesthetic evaluation of human-made and AI-generated haiku poetry",
+    "year": 2022,
+    "url": "https://doi.org/10.1016/j.chb.2022.107502",
+    "author": "Jimpei Hitsuwari",
+    "note": "Query match: poetry evaluation human AI collaboration",
+    "topics": [
+      "poetry evaluation human AI collaboration"
+    ]
+  },
+  {
+    "id": "A029",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "music generation survey",
+    "title": "GAN computers generate arts? A survey on visual arts, music, and literary text generation using generative adversarial network",
+    "year": 2022,
+    "url": "https://doi.org/10.1016/j.displa.2022.102237",
+    "author": "Sakib Shahriar",
+    "note": "Query match: music generation survey",
+    "topics": [
+      "music generation survey"
+    ]
+  },
+  {
+    "id": "A030",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese lyrics generation",
+    "title": "QiuNiu: A Chinese Lyrics Generation System with Passage-Level Input",
+    "year": 2022,
+    "url": "https://doi.org/10.18653/v1/2022.acl-demo.7",
+    "author": "Le Zhang",
+    "note": "Query match: Chinese lyrics generation",
+    "topics": [
+      "Chinese lyrics generation"
+    ]
+  },
+  {
+    "id": "A031",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "style transfer poetry",
+    "title": "System Supporting Poetry Generation Using Text Generation and Style Transfer Methods",
+    "year": 2022,
+    "url": "https://doi.org/10.1016/j.procs.2022.09.389",
+    "author": "Magdalena Badura",
+    "note": "Query match: style transfer poetry",
+    "topics": [
+      "style transfer poetry"
+    ]
+  },
+  {
+    "id": "A032",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "symbolic music generation",
+    "title": "Theme Transformer: Symbolic Music Generation With Theme-Conditioned Transformer",
+    "year": 2022,
+    "url": "https://doi.org/10.1109/tmm.2022.3161851",
+    "author": "Yi-Jen Shih",
+    "note": "Query match: symbolic music generation",
+    "topics": [
+      "symbolic music generation"
+    ]
+  },
+  {
+    "id": "A033",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "large language model instruction tuning",
+    "title": "Training language models to follow instructions with human feedback",
+    "year": 2022,
+    "url": "https://doi.org/10.48550/arxiv.2203.02155",
+    "author": "Long Ouyang",
+    "note": "Query match: large language model instruction tuning",
+    "topics": [
+      "large language model instruction tuning"
+    ]
+  },
+  {
+    "id": "A034",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "controllable poetry generation",
+    "title": "A Sentiment and Style Controllable Approach for Chinese Poetry Generation",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3459637.3481964",
+    "author": "Yizhan Shao",
+    "note": "Query match: controllable poetry generation",
+    "topics": [
+      "controllable poetry generation"
+    ]
+  },
+  {
+    "id": "A035",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese lyrics generation",
+    "title": "Automated Generation of Chinese Lyrics Based on Melody Emotions",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/access.2021.3095964",
+    "author": "Yin‐Fu Huang",
+    "note": "Query match: Chinese lyrics generation",
+    "topics": [
+      "Chinese lyrics generation"
+    ]
+  },
+  {
+    "id": "A036",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "lyrics generation / melody conditioned lyrics generation",
+    "title": "Conditional LSTM-GAN for Melody Generation from Lyrics",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3424116",
+    "author": "Yi Yu",
+    "note": "Query match: lyrics generation",
+    "topics": [
+      "lyrics generation",
+      "melody conditioned lyrics generation"
+    ]
+  },
+  {
+    "id": "A037",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "style transfer poetry",
+    "title": "Mind the Style of Text! Adversarial and Backdoor Attacks Based on Text Style Transfer",
+    "year": 2021,
+    "url": "https://doi.org/10.18653/v1/2021.emnlp-main.374",
+    "author": "Fanchao Qi",
+    "note": "Query match: style transfer poetry",
+    "topics": [
+      "style transfer poetry"
+    ]
+  },
+  {
+    "id": "A038",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "symbolic music generation",
+    "title": "Symbolic Music Generation with Transformer-GANs",
+    "year": 2021,
+    "url": "https://doi.org/10.1609/aaai.v35i1.16117",
+    "author": "Aashiq Muhamed",
+    "note": "Query match: symbolic music generation",
+    "topics": [
+      "symbolic music generation"
+    ]
+  },
+  {
+    "id": "A039",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "rap lyrics generation",
+    "title": "Conditional Rap Lyrics Generation with Denoising Autoencoders",
+    "year": 2020,
+    "url": "https://arxiv.org/pdf/2004.03965",
+    "author": "Nikola I. Nikolov",
+    "note": "Query match: rap lyrics generation",
+    "topics": [
+      "rap lyrics generation"
+    ]
+  },
+  {
+    "id": "A040",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese classical poetry",
+    "title": "Deep Poetry: A Chinese Classical Poetry Generation System",
+    "year": 2020,
+    "url": "https://doi.org/10.1609/aaai.v34i09.7100",
+    "author": "Liu Y",
+    "note": "Query match: Chinese classical poetry",
+    "topics": [
+      "Chinese classical poetry"
+    ]
+  },
+  {
+    "id": "A041",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "symbolic music generation",
+    "title": "Learning Adversarial Transformer for Symbolic Music Generation",
+    "year": 2020,
+    "url": "https://doi.org/10.1109/tnnls.2020.2990746",
+    "author": "Ning Zhang",
+    "note": "Query match: symbolic music generation",
+    "topics": [
+      "symbolic music generation"
+    ]
+  },
+  {
+    "id": "A042",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "lyrics generation / melody conditioned lyrics generation",
+    "title": "Melody-Conditioned Lyrics Generation with SeqGANs",
+    "year": 2020,
+    "url": "https://doi.org/10.1109/ism.2020.00040",
+    "author": "Yihao Chen",
+    "note": "Query match: lyrics generation",
+    "topics": [
+      "lyrics generation",
+      "melody conditioned lyrics generation"
+    ]
+  },
+  {
+    "id": "A043",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "controllable poetry generation",
+    "title": "MixPoet: Diverse Poetry Generation via Learning Controllable Mixed Latent Space",
+    "year": 2020,
+    "url": "https://doi.org/10.1609/aaai.v34i05.6488",
+    "author": "Xiaoyuan Yi",
+    "note": "Query match: controllable poetry generation",
+    "topics": [
+      "controllable poetry generation"
+    ]
+  },
+  {
+    "id": "A044",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "lyrics generation / rap lyrics generation",
+    "title": "Rapformer: Conditional Rap Lyrics Generation with Denoising Autoencoders",
+    "year": 2020,
+    "url": "https://doi.org/10.18653/v1/2020.inlg-1.42",
+    "author": "Nikola I. Nikolov",
+    "note": "Query match: lyrics generation",
+    "topics": [
+      "lyrics generation",
+      "rap lyrics generation"
+    ]
+  },
+  {
+    "id": "A045",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese lyrics generation / lyrics generation",
+    "title": "A Hierarchical Attention Based Seq2Seq Model for Chinese Lyrics Generation",
+    "year": 2019,
+    "url": "https://doi.org/10.1007/978-3-030-29894-4_23",
+    "author": "Haoshen Fan",
+    "note": "Query match: Chinese lyrics generation",
+    "topics": [
+      "Chinese lyrics generation",
+      "lyrics generation"
+    ]
+  },
+  {
+    "id": "A046",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese lyrics generation",
+    "title": "A Syllable-Structured, Contextually-Based Conditionally Generation of Chinese Lyrics",
+    "year": 2019,
+    "url": "https://doi.org/10.1007/978-3-030-29894-4_20",
+    "author": "Lu Xu",
+    "note": "Query match: Chinese lyrics generation",
+    "topics": [
+      "Chinese lyrics generation"
+    ]
+  },
+  {
+    "id": "A047",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "constrained decoding",
+    "title": "Constrained Decoding for Neural NLG from Compositional Representations in Task-Oriented Dialogue",
+    "year": 2019,
+    "url": "https://doi.org/10.18653/v1/p19-1080",
+    "author": "Anusha Balakrishnan",
+    "note": "Query match: constrained decoding",
+    "topics": [
+      "constrained decoding"
+    ]
+  },
+  {
+    "id": "A048",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "music generation",
+    "title": "Deep Learning Techniques for Music Generation",
+    "year": 2019,
+    "url": "https://doi.org/10.1007/978-3-319-70163-9",
+    "author": "Jean-Pierre Briot",
+    "note": "Query match: music generation",
+    "topics": [
+      "music generation"
+    ]
+  },
+  {
+    "id": "A049",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "constrained decoding",
+    "title": "Improved Lexically Constrained Decoding for Translation and Monolingual Rewriting",
+    "year": 2019,
+    "url": "https://doi.org/10.18653/v1/n19-1090",
+    "author": "J. Edward Hu",
+    "note": "Query match: constrained decoding",
+    "topics": [
+      "constrained decoding"
+    ]
+  },
+  {
+    "id": "A050",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese classical poetry",
+    "title": "Jiuge: A Human-Machine Collaborative Chinese Classical Poetry Generation System",
+    "year": 2019,
+    "url": "https://doi.org/10.18653/v1/p19-3005",
+    "author": "Zhipeng Guo",
+    "note": "Query match: Chinese classical poetry",
+    "topics": [
+      "Chinese classical poetry"
+    ]
+  },
+  {
+    "id": "A051",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "melody conditioned lyrics generation",
+    "title": "Lyrics-Conditioned Neural Melody Generation",
+    "year": 2019,
+    "url": "https://doi.org/10.1007/978-3-030-37734-2_58",
+    "author": "Yi Yu",
+    "note": "Query match: melody conditioned lyrics generation",
+    "topics": [
+      "melody conditioned lyrics generation"
+    ]
+  },
+  {
+    "id": "A052",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "constrained decoding",
+    "title": "Negative Lexically Constrained Decoding for Paraphrase Generation",
+    "year": 2019,
+    "url": "https://doi.org/10.18653/v1/p19-1607",
+    "author": "Tomoyuki Kajiwara",
+    "note": "Query match: constrained decoding",
+    "topics": [
+      "constrained decoding"
+    ]
+  },
+  {
+    "id": "A053",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "controllable poetry generation",
+    "title": "Rhetorically Controlled Encoder-Decoder for Modern Chinese Poetry Generation",
+    "year": 2019,
+    "url": "https://doi.org/10.18653/v1/p19-1192",
+    "author": "Zhiqiang Liu",
+    "note": "Query match: controllable poetry generation",
+    "topics": [
+      "controllable poetry generation"
+    ]
+  },
+  {
+    "id": "A054",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese poetry generation / controllable poetry generation",
+    "title": "Sentiment-Controllable Chinese Poetry Generation",
+    "year": 2019,
+    "url": "https://doi.org/10.24963/ijcai.2019/684",
+    "author": "Huimin Chen",
+    "note": "Query match: Chinese poetry generation",
+    "topics": [
+      "Chinese poetry generation",
+      "controllable poetry generation"
+    ]
+  },
+  {
+    "id": "A055",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "melody conditioned lyrics generation",
+    "title": "A Melody-Conditioned Lyrics Language Model",
+    "year": 2018,
+    "url": "https://doi.org/10.18653/v1/n18-1015",
+    "author": "Kento Watanabe",
+    "note": "Query match: melody conditioned lyrics generation",
+    "topics": [
+      "melody conditioned lyrics generation"
+    ]
+  },
+  {
+    "id": "A056",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "poetry generation",
+    "title": "Automatic Poetry Generation with Mutual Reinforcement Learning",
+    "year": 2018,
+    "url": "https://doi.org/10.18653/v1/d18-1353",
+    "author": "Xiaoyuan Yi",
+    "note": "Query match: poetry generation",
+    "topics": [
+      "poetry generation"
+    ]
+  },
+  {
+    "id": "A057",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese poetry memory",
+    "title": "Chinese Poetry Generation with a Working Memory Model",
+    "year": 2018,
+    "url": "https://doi.org/10.24963/ijcai.2018/633",
+    "author": "Xiaoyuan Yi",
+    "note": "Query match: Chinese poetry memory",
+    "topics": [
+      "Chinese poetry memory"
+    ]
+  },
+  {
+    "id": "A058",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese poetry memory",
+    "title": "How Images Inspire Poems: Generating Classical Chinese Poetry from Images with Memory Networks",
+    "year": 2018,
+    "url": "https://doi.org/10.1609/aaai.v32i1.12001",
+    "author": "Linli Xu",
+    "note": "Query match: Chinese poetry memory",
+    "topics": [
+      "Chinese poetry memory"
+    ]
+  },
+  {
+    "id": "A059",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "music generation / symbolic music generation",
+    "title": "MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment",
+    "year": 2018,
+    "url": "https://doi.org/10.1609/aaai.v32i1.11312",
+    "author": "Hao‐Wen Dong",
+    "note": "Query match: music generation",
+    "topics": [
+      "music generation",
+      "symbolic music generation"
+    ]
+  },
+  {
+    "id": "A060",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "style transfer poetry",
+    "title": "Style Transfer in Text: Exploration and Evaluation",
+    "year": 2018,
+    "url": "https://doi.org/10.1609/aaai.v32i1.11330",
+    "author": "Zhenxin Fu",
+    "note": "Query match: style transfer poetry",
+    "topics": [
+      "style transfer poetry"
+    ]
+  },
+  {
+    "id": "A061",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese poetry generation / style transfer poetry / Chinese poetry planning",
+    "title": "Stylistic Chinese Poetry Generation via Unsupervised Style Disentanglement",
+    "year": 2018,
+    "url": "https://doi.org/10.18653/v1/d18-1430",
+    "author": "Cheng Yang",
+    "note": "Query match: Chinese poetry generation",
+    "topics": [
+      "Chinese poetry generation",
+      "style transfer poetry",
+      "Chinese poetry planning"
+    ]
+  },
+  {
+    "id": "A062",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "poetry generation survey",
+    "title": "A Survey on Intelligent Poetry Generation: Languages, Features, Techniques, Reutilisation and Evaluation",
+    "year": 2017,
+    "url": "https://doi.org/10.18653/v1/w17-3502",
+    "author": "Hugo Gonçalo Oliveira",
+    "note": "Query match: poetry generation survey",
+    "topics": [
+      "poetry generation survey"
+    ]
+  },
+  {
+    "id": "A063",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese lyrics generation",
+    "title": "Chinese Lyrics Generation Using Long Short-Term Memory Neural Network",
+    "year": 2017,
+    "url": "https://doi.org/10.1007/978-3-319-60045-1_43",
+    "author": "Xing Wu",
+    "note": "Query match: Chinese lyrics generation",
+    "topics": [
+      "Chinese lyrics generation"
+    ]
+  },
+  {
+    "id": "A064",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese poetry generation / songci generation / Chinese poetry planning",
+    "title": "Flexible and Creative Chinese Poetry Generation Using Neural Memory",
+    "year": 2017,
+    "url": "https://doi.org/10.18653/v1/p17-1125",
+    "author": "Jiyuan Zhang",
+    "note": "Query match: Chinese poetry generation",
+    "topics": [
+      "Chinese poetry generation",
+      "songci generation",
+      "Chinese poetry planning",
+      "Chinese poetry memory"
+    ]
+  },
+  {
+    "id": "A065",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "poetry generation",
+    "title": "Hafez: an Interactive Poetry Generation System",
+    "year": 2017,
+    "url": "https://doi.org/10.18653/v1/p17-4008",
+    "author": "Marjan Ghazvininejad",
+    "note": "Query match: poetry generation",
+    "topics": [
+      "poetry generation"
+    ]
+  },
+  {
+    "id": "A066",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "constrained decoding",
+    "title": "Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search",
+    "year": 2017,
+    "url": "https://doi.org/10.18653/v1/p17-1141",
+    "author": "Chris Hokamp",
+    "note": "Query match: constrained decoding",
+    "topics": [
+      "constrained decoding"
+    ]
+  },
+  {
+    "id": "A067",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "music generation",
+    "title": "MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation",
+    "year": 2017,
+    "url": "https://doi.org/10.48550/arxiv.1703.10847",
+    "author": "Li-Chia Yang",
+    "note": "Query match: music generation",
+    "topics": [
+      "music generation"
+    ]
+  },
+  {
+    "id": "A068",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese poetry generation / Chinese poetry planning",
+    "title": "Chinese Poetry Generation with Planning based Neural Network",
+    "year": 2016,
+    "url": "https://doi.org/10.48550/arxiv.1610.09889",
+    "author": "Zhe Wang",
+    "note": "Query match: Chinese poetry generation",
+    "topics": [
+      "Chinese poetry generation",
+      "Chinese poetry planning"
+    ]
+  },
+  {
+    "id": "A069",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "lyrics generation / rap lyrics generation",
+    "title": "DopeLearning: A Computational Approach to Rap Lyrics Generation",
+    "year": 2015,
+    "url": "https://doi.org/10.48550/arxiv.1505.04771",
+    "author": "Eric Malmi",
+    "note": "Query match: lyrics generation",
+    "topics": [
+      "lyrics generation",
+      "rap lyrics generation"
+    ]
+  },
+  {
+    "id": "A070",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "rap lyrics generation",
+    "title": "GhostWriter: Using an LSTM for Automatic Rap Lyric Generation",
+    "year": 2015,
+    "url": "https://doi.org/10.18653/v1/d15-1221",
+    "author": "Peter Potash",
+    "note": "Query match: rap lyrics generation",
+    "topics": [
+      "rap lyrics generation"
+    ]
+  },
+  {
+    "id": "A071",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "music generation survey",
+    "title": "Automated Generation of Music Playlists: Survey and Experiments",
+    "year": 2014,
+    "url": "https://doi.org/10.1145/2652481",
+    "author": "Geoffray Bonnin",
+    "note": "Query match: music generation survey",
+    "topics": [
+      "music generation survey"
+    ]
+  },
+  {
+    "id": "A072",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese poetry generation / poetry generation / songci generation",
+    "title": "Chinese Poetry Generation with Recurrent Neural Networks",
+    "year": 2014,
+    "url": "https://doi.org/10.3115/v1/d14-1074",
+    "author": "Xingxing Zhang",
+    "note": "Query match: Chinese poetry generation",
+    "topics": [
+      "Chinese poetry generation",
+      "poetry generation",
+      "songci generation",
+      "Chinese poetry memory"
+    ]
+  },
+  {
+    "id": "A073",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "Chinese poetry planning",
+    "title": "i, poet: automatic Chinese poetry composition through a generative summarization framework under constrained optimization",
+    "year": 2013,
+    "url": "https://www.research.ed.ac.uk/en/publications/2d25a0c7-1b5f-429e-8a14-b5b040754cef",
+    "author": "Rui Yan",
+    "note": "Query match: Chinese poetry planning",
+    "topics": [
+      "Chinese poetry planning"
+    ]
+  },
+  {
+    "id": "A074",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "constrained decoding",
+    "title": "Constrained decoding for text-level discourse parsing",
+    "year": 2012,
+    "url": "https://inria.hal.science/hal-00750611",
+    "author": "Philippe Müller",
+    "note": "Query match: constrained decoding",
+    "topics": [
+      "constrained decoding"
+    ]
+  },
+  {
+    "id": "A075",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "poetry generation",
+    "title": "Full FACE Poetry Generation",
+    "year": 2012,
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.298.8987",
+    "author": "Simon Colton",
+    "note": "Query match: poetry generation",
+    "topics": [
+      "poetry generation"
+    ]
+  },
+  {
+    "id": "A076",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "music generation",
+    "title": "Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription",
+    "year": 2012,
+    "url": "https://doi.org/10.48550/arxiv.1206.6392",
+    "author": "Nicolas Boulanger-Lewandowski",
+    "note": "Query match: music generation",
+    "topics": [
+      "music generation"
+    ]
+  },
+  {
+    "id": "A077",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "songci generation",
+    "title": "Genetic Algorithm and Its Implementation of Automatic Generation of Chinese SONGCI",
+    "year": 2010,
+    "url": "https://doi.org/10.3724/sp.j.1001.2010.03596",
+    "author": "Changle Zhou",
+    "note": "Query match: songci generation",
+    "topics": [
+      "songci generation"
+    ]
+  },
+  {
+    "id": "A078",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "music generation",
+    "title": "Algorithmic Composition: Paradigms of Automated Music Generation",
+    "year": 2008,
+    "url": "https://doi.org/10.1007/978-3-211-75540-2",
+    "author": "Gerhard Nierhaus",
+    "note": "Query match: music generation",
+    "topics": [
+      "music generation"
+    ]
+  },
+  {
+    "id": "A079",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "poetry generation / poetry generation survey",
+    "title": "An evolutionary algorithm approach to poetry generation",
+    "year": 2004,
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.9.5371",
+    "author": "Hisar Maruli Manurung",
+    "note": "Query match: poetry generation",
+    "topics": [
+      "poetry generation",
+      "poetry generation survey"
+    ]
+  },
+  {
+    "id": "A080",
+    "source_type": "academic",
+    "category": "academic",
+    "topic": "style transfer poetry",
+    "title": "Hesiod's Didactic Poetry",
+    "year": 1985,
+    "url": "https://doi.org/10.1017/s0009838800040155",
+    "author": "Malcolm Heath",
+    "note": "Query match: style transfer poetry",
+    "topics": [
+      "style transfer poetry"
+    ]
+  }
+]

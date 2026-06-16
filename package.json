@@ -1,0 +1,15 @@
+{
+  "name": "quci-ai-research",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect_sources.mjs",
+    "build": "node scripts/build_report.mjs"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "playwright": "^1.54.0"
+  }
+}
+
